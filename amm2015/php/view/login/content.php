@@ -1,7 +1,7 @@
 <div class="input-form">
     <h3>Login</h3>
 
-    <form method="post" action="login">
+    <form method="post" action="index.php?page=login">
         <input type="hidden" name="cmd" value="index.php?page=login"/>
         <label for="user">Username</label>
         <input type="text" name="user" id="user"/>
