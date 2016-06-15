@@ -23,6 +23,7 @@ include_once basename(__DIR__) . '/../Settings.php';
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <title><?= $vd->getTitolo() ?></title>
+        <base href="<?= Settings::getApplicationPath() ?>php/"/>
         <meta name="keywords" content="Surf Trip" />
         <meta name="description" content="Una pagina per gestire le funzioni degli organizzatori" />
         <link rel="shortcut icon" type="image/x-icon" href="../images/browser_icon.png" />
