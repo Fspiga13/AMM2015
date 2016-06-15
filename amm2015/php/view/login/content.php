@@ -9,7 +9,7 @@
         <label for="password">Password</label>
         <input type="password" name="password" id="password"/> 
         <br/>
-        <input type="submit" value="Login"/>
+        <input type="submit" value="index.php?page=login"/>
        
 
     </form>
